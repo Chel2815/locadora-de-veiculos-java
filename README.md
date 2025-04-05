@@ -20,8 +20,8 @@ Este projeto Java simula o aluguel de veículos. A classe `Veiculo` calcula cust
 1.  **Clonar o Repositório :**
     Clone o repositório para o seu computador seguindo estes passos
     ```bash
-    git clone <URL_DO_REPOSITORIO>
-    cd <NOME_DO_REPOSITORIO>
+    git clone git@github.com:Chel2815/locadora-de-veiculos-java.git
+    cd locadora-de-veiculos-java
     ```
 
 2.  **Abrir o Projeto na IDE:**
