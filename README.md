@@ -10,34 +10,24 @@ Este projeto Java simula o aluguel de veículos. A classe `Veiculo` calcula cust
 
 ## Como Instalar e Rodar (Usando Maven)
 
-### Pré-requisitos
+### Requisitos
 
-* **Java Development Kit (JDK):** Certifique-se de ter o JDK instalado.
-* **Maven:** O Maven deve estar instalado em sua máquina.
+* **Java Development Kit (JDK):** Você deve ter o JDK instalado.
+* **Maven:** É necessário ter o Maven instalado no seu computador.
 
 ### Passos
 
-1.  **Clonar o Repositório (se aplicável):**
-    Se o código estiver em um repositório Git, clone-o para sua máquina:
+1.  **Clonar o Repositório :**
+    Clone o repositório para o seu computador seguindo estes passos
     ```bash
     git clone <URL_DO_REPOSITORIO>
     cd <NOME_DO_REPOSITORIO>
     ```
 
 2.  **Abrir o Projeto na IDE:**
-    Abra a pasta do projeto na sua IDE Java preferida (IntelliJ IDEA, Eclipse, VS Code com extensões Java). A IDE deverá reconhecer o projeto Maven (arquivo `pom.xml`).
+    Abra a pasta do projeto na IDE de Java (O projeto foi desenvolvido no IntelliJ).
 
 3.  **Executar a Classe `Main`:**
     * Na IDE, navegue até o arquivo `Main.java`.
     * Clique com o botão direito e selecione "Run" ou "Executar".
-    * O programa será executado no console, solicitando as informações do aluguel.
-
-4.  **Executar os Testes Unitários (JUnit):**
-    * **Na IDE:** Geralmente, há uma opção para executar todos os testes na sua IDE. Procure por uma opção como "Run All Tests" ou clique com o botão direito na pasta `src/test/java` e selecione essa opção.
-    * **Via Terminal:** Navegue até a raiz do projeto (onde o arquivo `pom.xml` está localizado) e execute o seguinte comando:
-        ```bash
-        mvn test
-        ```
-        O Maven irá compilar o código de teste e executar os testes JUnit, mostrando os resultados no terminal.
-
-Agora você pode executar o programa de locadora e os testes unitários utilizando o Maven.
+    * O programa será executado no console.
